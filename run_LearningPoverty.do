@@ -3,6 +3,8 @@
 * Project information at: https://github.com/worldbank/LearningPoverty
 *==============================================================================*
 
+cd "D:\GitHub\LearningPoverty"
+
 *-----------------------------------------------------------------------------
 * Check that project profile was loaded, otherwise stops code
 *-----------------------------------------------------------------------------

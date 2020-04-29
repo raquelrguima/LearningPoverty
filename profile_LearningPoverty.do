@@ -43,13 +43,18 @@ qui {
   else if inlist("`c(username)'","wb462869","WB462869") {
     global clone   "C:/Users/`c(username)'/Documents/GitHub/LearningPoverty"
   }
+  
+   *Raquel Guimaraes
+  else if inlist("`c(username)'","Raquel") {
+    global clone   "C:/Users/`c(username)'/GitHub/LearningPoverty"
+  }
+  
   * If none of above cases, give an error
   else {
     noi disp as error _newline "{phang}Your username [`c(username)'] could not be matched with any profile. Please update profile_LearningPoverty do-file accordingly and try again.{p_end}"
     error 2222
   }
-  /* WELCOME!!! ARE YOU NEW TO THIS CODE?
-     Add yourself by copying the lines above, making sure to adapt your clone */
+
 
 
   * Checks that files in the clone can be accessed by testing any clone file (like this one)
